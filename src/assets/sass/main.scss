@@ -1,0 +1,139 @@
+@import '~bulma/bulma';
+@import '~bulma-pricingtable/dist/css/bulma-pricingtable';
+@import '~bulma-steps/dist/css/bulma-steps.sass';
+
+// @import '~bulma-slider/dist/css/bulma-slider'
+// @import '~bulma-extensions/dist/bulma-extensions.sass';
+// @import '~bulma-tooltip/dist/css/bulma-tooltip';
+html{
+}
+
+:root {
+  --color-dark: #006746;
+  --color-darker: #164A39;
+  --color-light: #00ce46;
+  --color-lighter: #caf0d6;
+
+  --color-shadow: #7a7f81;
+  --color-darkerer: #333;
+}
+
+// $color: #3cb878;
+// $light: lighten($color,15%);
+// $dark: darken($color,15%);
+// $lighter: lighten($color,30%);
+// $darker: darken($color,30%);
+
+.modal.is-active {
+  z-index: 99999;
+}
+
+button.is-primary,
+.button.is-primary {
+  background-color: var(--color-light);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+
+  &:hover{
+    background-color: var(--color-light);
+  }
+}
+
+button.is-primary[disabled] {
+  background-color: #00d1b2;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button.is-primary {
+  background-color: var(--color-light);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button.is-primary[disabled] {
+  background-color: var(--color-light);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+
+button.is-secondary,
+.button.is-secondary {
+  background-color: var(--color-dark);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+
+  &:hover{
+    background-color: var(--color-dark);
+  }
+}
+
+button.is-secondary[disabled] {
+  background-color: #00d1b2;
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button.is-secondary {
+  background-color: var(--color-dark);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button.is-secondary[disabled] {
+  background-color: var(--color-dark);
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 10px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  
+  /* Mouse-over effects */
+  &:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 20px; /* Slider handle height */
+    background: var(--color-dark); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 100%;
+  }
+  
+  &::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: var(--color-dark); /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  
+}
+

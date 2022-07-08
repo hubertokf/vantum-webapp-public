@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description"
+    content="Plataforma online 🇧🇷 para processamento de imagens capturadas por Vants! Ortomosaicos, Nuvens de pontos, MDS, Modelos 3D" />
+  <meta name="title" content="Vantum - Criação de Mapas">
+  <meta name="content-language" content="pt-br">
+  <meta name="keywords"
+    content="drone,vant,vants,orthophoto,orthomosaico,photogrametry,fotogrametria,mdt,dsm,quadricoptero,mapeamento">
+  <meta name="theme-color" content="#006746">
+
+
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127414752-1"></script>
+  <script src="https://unpkg.com/sql.js@0.3.2/js/sql.js"></script>
+  <script type="text/javascript">
+    if (document.location.hostname == "vantum.com.br") {
+      //Global site tag (gtag.js) - Google Analytics
+      window.dataLayer = window.dataLayer || [];
+
+      // Smartsupp Live Chat script
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = '';
+      window.smartsupp || (function (d) {
+        var s, c, o = smartsupp = function () {
+          o._.push(arguments)
+        };
+        o._ = [];
+        s = d.getElementsByTagName('script')[0];
+        c = d.createElement('script');
+        c.type = 'text/javascript';
+        c.charset = 'utf-8';
+        c.async = true;
+        c.src = 'https://www.smartsuppchat.com/loader.js?';
+        s.parentNode.insertBefore(c, s);
+      })(document);
+
+
+      //Facebook Pixel Code
+      ! function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '476431443149160');
+      fbq('track', 'PageView');
+
+    } else {
+      _gaq = {
+        push: function (arg) {
+          console.log("ga:", arg)
+        }
+      }
+    }
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=476431443149160&ev=PageView&noscript=1" /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+  <title>Vantum</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but Vantum doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

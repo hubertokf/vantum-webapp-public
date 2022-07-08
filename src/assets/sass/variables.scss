@@ -1,0 +1,37 @@
+$color-light: #00ce46;
+$color-lighter: #caf0d6;
+$color-dark: #006746;
+$color-darker: #164A39;
+
+// $color-light-hover: #00ce06;
+// $color-shadow: #257A58;
+// $color-darkerer: #004328;
+$color-light-hover: #00ce06;
+$color-shadow: #567582;
+$color-darkerer: #004328;
+
+$pcolor-light: #4fc6e0;
+$pcolor-lighter: #9cd8e5;
+$pcolor-dark: #00597e;
+$pcolor-darker: #00435f;
+$pcolor-shadow: #567582;
+// $color: #3cb878;
+// $light: lighten($color,15%);
+// $dark: darken($color,15%);
+// $lighter: lighten($color,30%);
+// $darker: darken($color,30%);
+
+@mixin v-centerer($h: 0%, $v: -50%) {
+  position: absolute;
+  top: 50%;
+  // left: 50%;
+  transform: translate($h, $v);
+}
+
+@mixin v-centerer2() {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Camada_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 336.50001 469.09999"
+   xml:space="preserve"
+   sodipodi:docname="symb_b2.svg"
+   width="336.5"
+   height="469.10001"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+   id="metadata29"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs27" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1025"
+   id="namedview25"
+   showgrid="false"
+   inkscape:zoom="0.21081808"
+   inkscape:cx="168.29999"
+   inkscape:cy="234.54999"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Camada_1" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#141414;}
+	.st1{fill:#00CE46;}
+</style>
+<g
+   id="g6"
+   transform="translate(-427,-186.4)">
+	<path
+   class="st0"
+   d="m 751.8,340.8 -15.1,-1.5 v -3.5 c 0,-74.2 -66.1,-134.5 -147.3,-134.5 -81.2,0 -147.4,60.4 -147.4,134.5 l -0.1,7.9 H 427 v -7.9 c 0,-82.4 72.8,-149.4 162.4,-149.4 89.6,0 162.4,67 162.4,149.4 z"
+   id="path4"
+   inkscape:connector-curvature="0"
+   style="fill:#141414" />
+</g>
+<g
+   id="g10"
+   transform="translate(-427,-186.4)">
+	<polygon
+   class="st1"
+   points="588.8,624.1 714.7,417.8 728.8,426 588.8,655.5 448.8,426 462.8,417.8 "
+   id="polygon8"
+   style="fill:#00ce46" />
+</g>
+<polygon
+   class="st0"
+   points="723.7,337.9 763.5,342 739.3,377.1 "
+   id="polygon12"
+   style="fill:#141414"
+   transform="translate(-427,-186.4)" />
+<path
+   class="st0"
+   d="m 162.4,239.2 c -45.2,0 -81.9,-36.8 -81.9,-81.9 0,-45.1 36.8,-81.9 81.9,-81.9 45.1,0 81.9,36.8 81.9,81.9 0,45.1 -36.6,81.9 -81.9,81.9 z m 0,-150.2 c -37.6,0 -68.2,30.6 -68.2,68.2 0,37.6 30.6,68.2 68.2,68.2 37.6,0 68.2,-30.6 68.2,-68.2 0,-37.6 -30.4,-68.2 -68.2,-68.2 z"
+   id="path14"
+   inkscape:connector-curvature="0"
+   style="fill:#141414" />
+<g
+   id="g22"
+   transform="translate(-427,-186.4)">
+	<circle
+   class="st0"
+   cx="589.40002"
+   cy="342.89999"
+   r="15.4"
+   id="circle16"
+   style="fill:#141414" />
+	<polygon
+   class="st0"
+   points="677.5,246.7 625.9,271.3 601.2,326.6 608.3,333.8 686.5,255.6 "
+   id="polygon18"
+   style="fill:#141414" />
+	<polygon
+   class="st0"
+   points="501.3,440.8 552.5,416.4 577.8,360.8 570.5,353.6 492.3,431.8 "
+   id="polygon20"
+   style="fill:#141414" />
+</g>
+</svg>
